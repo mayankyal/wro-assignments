@@ -1,0 +1,175 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <world name='wro_world'>
+  <!-- A global light source -->
+    
+
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <!-- A ground plane -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+
+  <include>
+    <uri>model://arenawalls</uri>
+    <pose>0 0 0 0 0 0</pose>
+  </include>
+
+  <include>
+    <uri>model://blue_box_2</uri>
+    <pose>-.6 .6 0 0 0 0</pose>
+  </include>
+
+
+  <include>
+    <uri>model://orange_block_0</uri>
+    <pose>-.6 .691 .224 0 0 0</pose>
+  </include>
+
+  <include>
+    <uri>model://orange_block_0</uri>
+    <pose>-.509 .6 .224 0 0 0</pose>
+  </include>
+
+  <include>
+    <uri>model://orange_block_0</uri>
+    <pose>-.6 .509 .224 0 0 0</pose>
+  </include>
+
+  <include>
+    <uri>model://orange_block_0</uri>
+    <pose>-.691 .6 .224 0 0 0</pose>
+  </include>
+
+
+
+
+
+      <include>
+    <uri>model://orange_box_0</uri>
+    <pose>.4 .8 0 0 0 0</pose>
+  </include>
+
+  <include>
+    <uri>model://yellow_block_0</uri>
+    <pose>.4 .891 .224 0 0 0</pose>
+  </include>
+  <include>
+    <uri>model://yellow_block_0</uri>
+    <pose>.491 .8 .224 0 0 0</pose>
+  </include>
+  <include>
+    <uri>model://yellow_block_0</uri>
+    <pose>.4 .709 .224 0 0 0</pose>
+  </include>
+  <include>
+    <uri>model://yellow_block_0</uri>
+    <pose>.309 .8 .224 0 0 0</pose>
+  </include>
+
+    <include>
+    <uri>model://green_box_0</uri>
+    <pose>0 .2 0 0 0 0</pose>
+  </include>
+
+    <include>
+    <uri>model://red_block_2</uri>
+    <pose>0 .291 .224 0 0 0</pose>
+  </include>
+      <include>
+    <uri>model://red_block_2</uri>
+    <pose>0.091 .2 .224 0 0 0</pose>
+  </include>
+      <include>
+    <uri>model://red_block_2</uri>
+    <pose>0 .109 .224 0 0 0</pose>
+  </include>
+      <include>
+    <uri>model://red_block_2</uri>
+    <pose>-.091 .2 .224 0 0 0</pose>
+  </include>
+
+
+    <include>
+    <uri>model://red_box_1</uri>
+    <pose>.8 -.2 0 0 0 0</pose>
+  </include>
+
+      <include>
+    <uri>model://green_block</uri>
+    <pose>.8 -.109 .224 0 0 0</pose>
+  </include>
+
+      <include>
+    <uri>model://green_block</uri>
+    <pose>.891 -.2 .224 0 0 0</pose>
+  </include>
+
+      <include>
+    <uri>model://green_block</uri>
+    <pose>.8 -.291 .224 0 0 0</pose>
+  </include>
+
+      <include>
+    <uri>model://green_block</uri>
+    <pose>.709 -.2 .224 0 0 0</pose>
+  </include>
+
+
+
+    <include>
+    <uri>model://yellow_box_0</uri>
+    <pose>-.6 -.5 0 0 0 0</pose>
+  </include>
+  
+     <include>
+    <uri>model://blue_block_2</uri>
+    <pose>-.6 -.409 .224 0 0 0</pose>
+  </include>
+       <include>
+    <uri>model://blue_block_2</uri>
+    <pose>-.509 -.5 .224 0 0 0</pose>
+  </include>
+       <include>
+    <uri>model://blue_block_2</uri>
+    <pose>-.6 -.591 .224 0 0 0</pose>
+  </include>
+       <include>
+    <uri>model://blue_block_2</uri>
+    <pose>-.691 -.5 .224 0 0 0</pose>
+  </include>
+
+
+    <include>
+    <uri>model://parking_zone</uri>
+    <pose>.2 -.4 0 0 0 -2.44</pose>
+  </include>
+
+    <!-- <include>
+    <uri>model://arenawalls</uri>
+    <pose>0 0 0 0 0 0</pose>
+  </include>
+
+    <include>
+    <uri>model://arenawalls</uri>
+    <pose>0 0 0 0 0 0</pose>
+  </include>
+
+    <include>
+    <uri>model://arenawalls</uri>
+    <pose>0 0 0 0 0 0</pose>
+  </include> -->
+
+
+
+
+
+
+
+
+  </world>
+</sdf>
+

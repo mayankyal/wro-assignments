@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>environment</name>
+  <version>0.6.3</version>
+  <description>The gazebo_worlds package</description>
+
+  <maintainer email="ayushgup@iitk.ac.in">Ayush Gupta</maintainer>
+  
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>gazebo_ros</depend>
+
+  <export>
+    <gazebo_ros gazebo_media_path="${prefix}"
+                gazebo_model_path="${prefix}/models"/>
+  </export>
+</package>
